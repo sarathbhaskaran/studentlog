@@ -5,7 +5,7 @@ let tdOne = document.getElementById('tdone')
 let tdTwo = document.getElementById('tdtwo')
 let tdThree = document.getElementById('tdthree')
 let count = 0;
-let coudnt = 0;
+
 
 
 function dlt(id) {
