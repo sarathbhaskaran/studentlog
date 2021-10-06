@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>studentlog</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 id="heading">STUDENT'S LOGIN</h1>
+            <div id="content">
+                <div id="left">
+
+                    <div id="labone" class="labip">
+                        <label id="nam" class="label">Name</label>
+                        <input id="nameip" class="ip" type="text">
+                    </div>
+                    <div id="labtwo" class="labip">
+                        <label id="age" class="label">Age</label>
+                        <input id="ageip" class="ip" type="number">
+                    </div>
+                    <div id="labthree" class="labip">
+                        <label id="grd" class="label"> Grade</label>
+                        <input id="grdip" class="ip" type="text">
+                    </div>
+
+                    <button type="submit" id="add" onclick="addDetails()">submit</button>
+                </div>
+                <div id="right">
+                    <table>
+                        <tr id="headr" class="row">
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Grade</th>
+                            <th>Action</th>
+                        </tr>
+                        <tbody id="myTable">
+
+
+                        </tbody>
+
+
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./script.js"></script>
+
+</html>
